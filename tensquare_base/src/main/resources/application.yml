@@ -1,0 +1,14 @@
+server:
+  port: 9001
+spring:
+  application:
+#    微服务通过application-name来进行连接，不能用_
+    name: tensquare-base
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.12.128/tensquare_base?characterEncoding=UTF-8
+    username: root
+    password: root
+  jpa:
+    show-sql: true
+    database: MySQL
