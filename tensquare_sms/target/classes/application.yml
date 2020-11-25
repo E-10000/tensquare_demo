@@ -1,0 +1,14 @@
+server:
+  port: 9009
+spring:
+  application:
+    name: tensquare-user
+  rabbitmq:
+    host: 192.168.12.128
+
+aliyun:
+  sms:
+    accessKeyId: LTAI4G62xFdvgLDgtmQcZpaV
+    accessKeySecret: AQzAFqJnjY6C2aj7q5Xib7NWObFEVw
+    sign_name: 十次方1024博客
+    template_code: SMS_205826458
